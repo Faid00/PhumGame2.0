@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Counter-Strike 2",
+    "category": "Action",
+    "price": 0.00,
+    "description": "A premier competitive tactical first-person shooter with advanced physics and graphics.",
+    "image": "image/cs2.png",
+    "stock": 999
+  },
+  {
+    "id": 2,
+    "name": "ARC Raiders",
+    "category": "Shooter",
+    "price": 39.99,
+    "description": "A cooperative third-person shooter where players resist a mechanical threat from space.",
+    "image": "image/arc_raiders.png",
+    "stock": 500
+  },
+  {
+    "id": 3,
+    "name": "EA SPORTS FC 26",
+    "category": "Sports",
+    "price": 27.00,
+    "description": "The next chapter in the world's game, featuring unparalleled realism and top global leagues.",
+    "image": "image/fc26.png",
+    "stock": 300
+  },
+  {
+    "id": 4,
+    "name": "Kingdom Come: Deliverance II",
+    "category": "RPG",
+    "price": 22.49,
+    "description": "A story-driven open-world RPG that immerses you in an epic adventure in Medieval Bohemia.",
+    "image": "image/kcd2.png",
+    "stock": 150
+  },
+  {
+    "id": 5,
+    "name": "Dead by Daylight",
+    "category": "Horror",
+    "price": 12.99,
+    "description": "A multiplayer horror game where one player is the killer and four others are survivors.",
+    "image": "image/dbd.png",
+    "stock": 400
+  },
+  {
+    "id": 6,
+    "name": "Avatar: Frontiers of Pandora",
+    "category": "Adventure",
+    "price": 14.73,
+    "description": "A first-person action-adventure game set in the open world of the Western Frontier of Pandora.",
+    "image": "image/avatar.png",
+    "stock": 200
+  },
+  {
+    "id": 7,
+    "name": "Marathon",
+    "category": "Sci-fi",
+    "price": 27.99,
+    "description": "A sci-fi extraction shooter from the creators of Halo and Destiny, set in a mysterious world.",
+    "image": "image/marathon.png",
+    "stock": 250
+  },
+  {
+    "id": 8,
+    "name": "NBA 2K26",
+    "category": "Sports",
+    "price": 31.99,
+    "description": "Experience the highest level of basketball gameplay and culture in the latest NBA 2K installment.",
+    "image": "image/nba2k26.png",
+    "stock": 180
+  },
+  {
+    "id": 9,
+    "name": "Baldur's Gate 3",
+    "category": "RPG",
+    "price": 29.99,
+    "description": "An epic, party-based RPG set in the universe of Dungeons & Dragons with deep storytelling.",
+    "image": "image/baldurs_gate_3_logo.png",
+    "stock": 120
+  },
+  {
+    "id": 10,
+    "name": "Elden Ring",
+    "category": "RPG",
+    "price": 59.99,
+    "description": "Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring in the Lands Between.",
+    "image": "image/elden_ring_logo.png",
+    "stock": 90
+  },
+  {
+    "id": 11,
+    "name": "Helldivers 2",
+    "category": "Action",
+    "price": 39.99,
+    "description": "Join the Helldivers and fight for freedom across a hostile galaxy in a frantic third-person shooter.",
+    "image": "image/helldivers_2_logo.png",
+    "stock": 220
+  },
+  {
+    "id": 12,
+    "name": "Path of Exile 2",
+    "category": "RPG",
+    "price": 29.99,
+    "description": "A next-generation Action RPG featuring a brand new campaign and significantly updated mechanics.",
+    "image": "image/path_of_exile_2_logo.png",
+    "stock": 350
+  },
+  {
+    "id": 13,
+    "name": "Silent Hill 2",
+    "category": "Horror",
+    "price": 49.99,
+    "description": "A remake of the psychological horror classic, featuring a haunting atmosphere and disturbing mysteries.",
+    "image": "image/silent_hill_2_logo.png",
+    "stock": 160
+  },
+  {
+    "id": 14,
+    "name": "Call of Duty: Black Ops 6",
+    "category": "Shooter",
+    "price": 69.99,
+    "description": "An intense first-person shooter with a gripping campaign and competitive multiplayer action.",
+    "image": "image/black ops 6 logo.webp",
+    "stock": 280
+  },
+  {
+    "id": 15,
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "category": "Adventure",
+    "price": 59.99,
+    "description": "An open-world adventure game where exploration and creativity are key to conquering challenges.",
+    "image": "image/zelda_botw_logo.png",
+    "stock": 110
+  },
+  {
+    "id": 16,
+    "name": "Starfield",
+    "category": "Sci-fi",
+    "price": 69.99,
+    "description": "A massive space exploration game where you can create your own character and explore thousands of star systems.",
+    "image": "image/starfield_logo.png",
+    "stock": 175
+  },
+  {
+    "id": 17,
+    "name": "WWE 2K26",
+    "category": "Sports",
+    "price": 29.99,
+    "description": "Experience the greatest professional wrestling entertainment with enhanced gameplay and updated rosters.",
+    "image": "image/wwe_2k26_logo.png",
+    "stock": 140
+  },
+  {
+    "id": 18,
+    "name": "Street Fighter 6",
+    "category": "Action",
+    "price": 39.99,
+    "description": "A revolutionary fighting game with accessible gameplay and deep mechanics for all skill levels.",
+    "image": "image/street_fighter_6_logo.png",
+    "stock": 210
+  }
+]

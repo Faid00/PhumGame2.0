@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhumGame - Your Gaming Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">PhumGame</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Games</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count" class="cart-badge">0</span></a></li>
+                <li><a href="login.html" id="auth-link">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Slider Section -->
+    <section class="banner-slider">
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide" onclick="nextSlide()">
+                    <img src="image/banners/elden_ring_banner.jpg" alt="Elden Ring Banner">
+                    <div class="slide-content">
+                        <h2>Elden Ring</h2>
+                        <p>Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring.</p>
+                    </div>
+                </div>
+                <div class="slide" onclick="nextSlide()">
+                    <img src="image/banners/bg3_banner.jpg" alt="Baldur's Gate 3 Banner">
+                    <div class="slide-content">
+                        <h2>Baldur's Gate 3</h2>
+                        <p>Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal.</p>
+                    </div>
+                </div>
+                <div class="slide" onclick="nextSlide()">
+                    <img src="image/banners/helldivers2_banner.jpg" alt="Helldivers 2 Banner">
+                    <div class="slide-content">
+                        <h2>Helldivers 2</h2>
+                        <p>Join the Helldivers and fight for freedom across a hostile galaxy.</p>
+                    </div>
+                </div>
+                <div class="slide" onclick="nextSlide()">
+                    <img src="image/banners/arc_raiders_banner.jpg" alt="ARC Raiders Banner">
+                    <div class="slide-content">
+                        <h2>ARC Raiders</h2>
+                        <p>A cooperative third-person shooter where players resist a mechanical threat from space.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to PhumGame</h1>
+            <p>Your ultimate destination for the latest games and gaming experiences</p>
+            <a href="products.html" class="btn btn-primary">Browse Games</a>
+        </div>
+    </section>
+
+    <!-- Trending Games Section -->
+    <section class="trending-games">
+        <div class="container">
+            <h2>Trending Games</h2>
+            <div id="trending-grid" class="trending-grid">
+                <!-- Trending games will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose PhumGame?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Access</h3>
+                    <p>Download and start playing your games immediately</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h3>Exclusive Deals</h3>
+                    <p>Get the best prices and exclusive offers on all games</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Community Support</h3>
+                    <p>Connect with gamers and get expert recommendations 24/7</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Safe & Secure</h3>
+                    <p>All games verified authentic with secure transactions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About PhumGame</h3>
+                    <p>PhumGame is your premier destination for discovering and purchasing the latest games across all genres.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Games</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: support@phumgame.com</p>
+                    <p>Phone: +1 (888) PHUM-GAME</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PhumGame. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
